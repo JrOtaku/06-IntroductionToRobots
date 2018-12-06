@@ -39,5 +39,8 @@ def main():
 
     talker = rb.Speech('hello')
     talker.speak()
+    hello = rb.Speech('how has your day been')
+    hello.speak()
+    fun_song.play()
 
 main()
